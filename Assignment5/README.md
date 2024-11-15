@@ -1,32 +1,32 @@
 # Assignment 5 Instructions
 
 ## Go to http://djangoproject.com then download and install the Django Web framework (and SQLite if you are not using a Windows-based PC, because it comes for free with Python 2.5+ for Windows).
-<!-- 
-a) Execute
 
-‘django-admin.py startproject helloworld’ to start your project, and then
+### a) Execute
 
-‘cd helloworld; python ./manage.py startapp hello’ to start your app. (2 marks).
+- ‘django-admin.py startproject helloworld’ to start your project, and then
 
-b) Edit helloworld/hello/views.py to include this code (2 marks).:
+- ‘cd helloworld; python ./manage.py startapp hello’ to start your app. (2 marks).
 
-from django.http import HttpResponse
+### b) Edit helloworld/hello/views.py to include this code (2 marks).:
 
-def index(request):
+- from django.http import HttpResponse
 
-return HttpResponse('Hello world!')
+- def index(request):
 
-c) In helloworld/settings.py, add 'hello', to the INSTALLED_APPS variable (in any position of the tuple) (2 marks)..
+- return HttpResponse('Hello world!')
 
-d) In helloworld/urls.py, replace the commented-out line (2 marks).:
+### c) In helloworld/settings.py, add 'hello', to the INSTALLED_APPS variable (in any position of the tuple) (2 marks)..
 
-# (r'helloworld/', include('helloworld.foo.urls')),
+### d) In helloworld/urls.py, replace the commented-out line (2 marks).:
 
-with this (uncommented) line:
+- "# (r'helloworld/', include('helloworld.foo.urls')),"
 
-# (r'^$', 'hello.views.index'),
+- with this (uncommented) line:
 
-e) Execute ‘python ./manage.py runserver’ and visit http://localhost:8000 to confirm that your code works and “Hello world!” does show up on your browser. Change the output to something other than “Hello world!” (2 marks)..
+- "# (r'^$', 'hello.views.index'),"
 
-Provide screenshots for each task. -->
+### e) Execute ‘python ./manage.py runserver’ and visit http://localhost:8000 to confirm that your code works and “Hello world!” does show up on your browser. Change the output to something other than “Hello world!” (2 marks)..
+
+## Provide screenshots for each task.
 
